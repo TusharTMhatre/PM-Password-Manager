@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PM-Password Manager</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+      <div id="logo">PM-Password Manager</div>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact US</li>
+        <li>Services</li>
+      </ul>
+    </nav>
+    <section class="container">
+      <h1>Password Manager</h1>
+      <p>"Welcome to PM-Password Manager!
+      
+      We're thrilled to have you here, where security meets simplicity. Your digital safety is our top priority, and we're
+      here to make managing your passwords a breeze.
+      
+      Feel free to explore our user-friendly interface, powerful features, and robust security measures. Whether you're a
+      cybersecurity enthusiast or just getting started with password management, we've got you covered.
+      
+      If you have any questions or need assistance, don't hesitate to reach out. Thanks for trusting us with your digital keys
+      – let's keep your online world secure together!
+      <br><br>
+      Happy managing,
+     PM-Password Manager
+</p>
+      <h2>Your Password</h2>
+      <table>
+        <tr>
+          <th>Website</th>
+          <th>Username</th>
+          <th>Password</th>
+          <th>Delete</th>
+        </tr>
+        <tr>
+          <td>Amazon</td>
+          <td>TusharMhatre</td>
+          <td>tushar1212</td>
+          <td></td>
+        </tr>
+      </table>
+      <h2>Add a Password</h2>
+     
+        <form action="/submit" method="post">
+        
+          <!-- Text input for website -->
+          <label for="website">Website:</label>
+          <input type="text" id="website" name="website" autocomplete="currnet-website">
+          <br><br>
+        
+          <!-- Text input for username -->
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" autocomplete="current-username">
+          <br><br>
+        
+          <!-- Password input -->
+          <!--By using id we get values in console/in event lister-->
+          <!--we can use id as variable in js-->
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" autocomplete="current-password" >
+          <br>
+          <!-- Submit button -->
+          <button class="btn" type="submit">Submit</button>
+        </form>
+    </section>
+   
+    
+    <script src="script.js" async defer></script>
+  </body>
+</html>
