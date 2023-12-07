@@ -11,6 +11,8 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
   </head>
   <body>
     <nav>
@@ -52,31 +54,41 @@
           <td>tushar1212</td>
           <td></td>
         </tr>
+          <tr>
+            <td>Facebook</td>
+            <td>Emma </td>
+            <td>123</td>
+            <td></td>
+          </tr>
       </table>
+
+     
       <h2>Add a Password</h2>
      
         <form action="/submit" method="post">
         
           <!-- Text input for website -->
           <label for="website">Website:</label>
-          <input type="text" id="website" name="website" autocomplete="currnet-website">
+          <input type="text" id="website" name="website" autocomplete="currnet-website" required>
           <br><br>
         
           <!-- Text input for username -->
           <label for="username">Username:</label>
-          <input type="text" id="username" name="username" autocomplete="current-username">
+          <input type="text" id="username" name="username" autocomplete="current-username" required>
           <br><br>
         
           <!-- Password input -->
           <!--By using id we get values in console/in event lister-->
           <!--we can use id as variable in js-->
           <label for="password">Password:</label>
-          <input type="password" id="password" name="password" autocomplete="current-password" >
+          <input type="password" id="password" name="password" autocomplete="current-password" required>
           <br>
           <!-- Submit button -->
           <button class="btn" type="submit">Submit</button>
         </form>
+
     </section>
+    
    
     
     <script src="script.js" async defer></script>
